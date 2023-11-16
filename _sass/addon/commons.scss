@@ -789,7 +789,7 @@ $btn-mb: 0.5rem;
         font-weight: 600;
 
         &:hover {
-          background-color: var(--sidebar-hover-bg);
+          color: var(--sidebar-active-color);
         }
 
         i {
@@ -807,7 +807,6 @@ $btn-mb: 0.5rem;
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
 
           span {
             opacity: 1;
@@ -826,7 +825,7 @@ $btn-mb: 0.5rem;
     padding-right: 1rem;
     padding-top: 0.8rem;
     padding-bottom: 0.3rem;
-    background: #434343;
+    background: #2b2b2b;
     margin-bottom: 1.5rem;
 
     $btn-size: 1.75rem;
