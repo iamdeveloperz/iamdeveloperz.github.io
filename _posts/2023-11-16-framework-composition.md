@@ -86,7 +86,7 @@ public static void Main()
 }
 ```
 
-<p align="center"><img src='https://github.com/iamdeveloperz/iamdeveloperz.github.io/assets/59020441/646379a5-3704-441a-ab38-a4fa9834d37d' border="5"></p>
+<p align="center"><img src='https://github.com/iamdeveloperz/iamdeveloperz.github.io/assets/59020441/646379a5-3704-441a-ab38-a4fa9834d37d' alt="Scene Interact" border="5"></p>
 
 ---
 
