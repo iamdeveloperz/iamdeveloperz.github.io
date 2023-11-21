@@ -1,0 +1,10 @@
+{
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assets/img",
+  "showLineNumber": true
+}

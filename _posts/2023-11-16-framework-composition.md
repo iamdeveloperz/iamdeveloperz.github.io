@@ -8,8 +8,8 @@ categories:
 tags:
   - TIL
   - Framework
-sticker: lucide//frame
 image:
+  path: /assets/img/CS_TIL_11-16.png
 ---
 
 C# Console에서 게임 엔진 Unity처럼 동작하는 방법을 구성할려고 한다. 아주 간단한 구현 방법을 생각했는데<br>
@@ -17,18 +17,16 @@ C# Console에서 게임 엔진 Unity처럼 동작하는 방법을 구성할려�
 
 ## 추상 클래스의 구성
 
-* 가장 먼저 할 일은 Scene들이 가지고 있는 중복된 동작들을 요약/정리 하는 것이다.
+* 가장 먼저 할 일은 Scene들이 가지고 있는 <span style="color:#ffc000">중복된 동작</span>들을 요약/정리 하는 것이다.
 
 > Scene은 `Start()`와 `Update()`로 기본 구성 되고, 초기화와 업데이트를 진행한다.<br>
-> 위 내용을 토대로 abstract Scene class를 추상화만 시켜주면 완성이다.
-<br>
----
-### Scene Class
-```
-TEST
-```
+> 위 내용을 토대로 abstract Scene class를 추상화만 시켜주면 완성이다. <br>
 
-```C#
+***
+
+### <mark style="background: #FFB8EBA6;"></mark> &nbsp;Scene Class
+
+```cs
 /*
 ** Title, Game, Lobby등의 씬이 상속받게 될 추상 클래스
 */
@@ -39,13 +37,12 @@ public abstract class Scene
 }
 ```
 
-추상 클래스는 상속받는 자식 클래스가 abstract로 지정된
-`멤버 필드` 또는 `메서드`를 명시적으로 구현해야만 한다.
+추상 클래스는 상속받는 자식 클래스가 abstract로 지정된 `멤버 필드` 또는 `메서드`를 명시적으로 구현해야 한다.
 
----
-### <mark style="background: #FFB8EBA6;"></mark> Sub Class
+***
+### <mark style="background: #FFB8EBA6;"></mark> &nbsp;Sub Class
 
-```C#
+```cs
 public class Title : Scene
 {
 	public override void Start()
@@ -60,12 +57,11 @@ public class Title : Scene
 }
 ```
 
-추상 클래스를 통해 자식 클래스들을 제어할 수 있는 형태가 구성 됐다.
+부모(추상) 클래스를 통해 자식 클래스들을 제어할 수 있는 형태가 구성 됐다.
 
 ---
-### Example
-
-```C#
+### <mark style="background: #BBFABBA6;"></mark> &nbsp;Example
+```cs
 public static void Main()
 {
 	/*
@@ -86,18 +82,18 @@ public static void Main()
 }
 ```
 
-<p align="center"><img src='https://github.com/iamdeveloperz/iamdeveloperz.github.io/assets/59020441/646379a5-3704-441a-ab38-a4fa9834d37d' alt="Scene Interact" border="5"></p>
+![Scene Interact](https://github.com/iamdeveloperz/iamdeveloperz.github.io/assets/59020441/646379a5-3704-441a-ab38-a4fa9834d37d)  
 
----
+***
 
 ## 프레임 워크 구현
 
-* 위 내용을 기반으로 하여 이제 `SceneManager`만 구현하면 프레임워크의 완성이다.
-* 씬 매니저의 구성은 다음 코드들로 이루어진다.
+* 위 내용을 기반으로 하여 `SceneManager`만 구현하면 기초 프레임워크의 완성이다.
+* 씬 매니저의 구성은 `currentScene`이 존재하고 이를 관리를 해줘야 한다.
 
-### <mark style="background: #FFB8EBA6;"></mark> Singleton Super Class
+### <mark style="background: #FFB8EBA6;"></mark> &nbsp;Singleton Super Class
 
-```C#
+```cs
 
 namespace HexaCoreVillage.Framework;
 
@@ -134,9 +130,9 @@ public class Singleton<T> where T : class, new()
 }
 ```
 
-### <mark style="background: #FFB8EBA6;"></mark> SceneManager Class
+### <mark style="background: #FFB8EBA6;"></mark> &nbsp;SceneManager Class
 
-```C#
+```cs
 /// <summary>
 /// # Scene을 관리하는 매니저 클래스
 /// ## Scene by Scene : 씬을 이동 시키는 매개 클래스
@@ -187,24 +183,27 @@ public class Manager_Scene
 
 > 나중에 수정 시 참고해야 될 사항
 
-	리소스를 절약할 수 있다. 씬을 버리지 않고 재활용 한다면!
-		1. List<Scene> _sceneList
-		2. Scene 추상 클래스에 abstract void Reset() 메서드 추가
-		3. if(_currentScene != null) 부분에 _currentScene.Reset()을 해준다.
-		4. switch Lambda식에서 new()를 통한 생성이 아닌 List[Index]로 꺼내온다.
-
+* 리소스를 절약할 수 있다. 씬을 버리지 않고 재활용 한다면!
+1. `List<Scene> _sceneList`
+2. Scene 추상 클래스에 `abstract void Reset()`` 메서드 추가
+3. `if(_currentScene != null)` 부분에 `_currentScene.Reset()`을 해준다.
+4. switch Lambda식에서 new()를 통한 생성이 아닌 List[Index]로 꺼내온다.
+<br>
 * 이로써 간단한 Scene기반 프레임워크가 구현되었다.
-* Main Procedure의 반복문은 currentScene의 업데이트만 진행된다.
+* Main Procedure의 반복문은 currentScene의 업데이트만 진행하면 된다.
 
 ---
-## <mark style="background: #ADCCFFA6;">해보고자 하는 것</mark>
+## <mark style="background: #ADCCFFA6;"></mark>&nbsp;해보고자 하는 것
 
-> [!닌텐도 1세대와 같이 4방향 움직이는 게임]
-> - 필요 프레임워크 구상<br> 
+> [닌텐도 1세대와 같이 4방향 움직이는 게임]
+> - 필요 프레임워크 구상<br><br>
 > 	+ Scene은 foreach를 통해 항시 업데이트 및 렌더링이 되어야한다.
+> 	+ Scene → Update() = `foreach(var GameObject in \_gameObjects)`
 > 	+ **class** : GameNode → Scene → UserScene
-> 	+ **class** : GameNode → GameObject (Player)<br>
+> 	+ **class** : GameNode → GameObject (Player)<br><br>
 > 	+ 캐릭터 이동 및 화면 그리기
 > 		+ 더블버퍼링 기법 + 더티 플래그 기법을 합쳐서 구현
 > 		+ 캐릭터의 입력을 받을 때 = FrontBuffer (그려지는 화면)
 > 		+ 캐릭터의 입력을 받은 후 = BackBuffer (뒤에서 작업할 화면)
+
+***
