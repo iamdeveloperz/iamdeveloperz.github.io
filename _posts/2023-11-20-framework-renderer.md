@@ -24,7 +24,7 @@ image:
 - 이 형태는 그대로 유지하되, `운영체제(플랫폼)별로 콘솔창이 대응`되게 만들어야 했다.
 	+ 첫 방법으로는 C#에서 기본적으로 제공하는 Console 명령어들을 이용하는 것이 있었는데 실패했다.
 	+ 이유인 즉슨 위 방법으로는 한계점이 명확했는데, 최대화 최소화 같은 메뉴바에 접근할 수 없다.
-	+ [!] 윈도우즈 응용프로그램을 제어할 수 있는 API가 필요하다.
+	+ <span style="color:#c00000">[!]</span> 윈도우즈 응용프로그램을 제어할 수 있는 API가 필요하다.
 - Windows는 응용프로그램을 명확하게 다룰 수 있는 방법으로 Windows API가 제공된다.
 ***
 ### <mark style="background: #BBFABBA6;"></mark>&nbsp;💫Windows API - Framework
@@ -32,7 +32,7 @@ image:
 - 필요한 기능은 다음과 같다.
 	+ 사용자 조작 불가 : 창크기 변경, 최소화, 최대화
 	+ 창 크기 조절 : 버퍼크기 [X 180] [Y 40]
-- 위 내용을 토대로 해서 다음과 같은 프레임 워크를 구성했다.
+- 위 내용을 토대로 해서 다음과 같은 프레임 워크를 구성했다.<br>
 ```cs
 
 using System.Runtime.InteropServices;
@@ -117,7 +117,7 @@ public class WindowsAPI
     #endregion
 }
 ```
-핵심은 `user32.dll`과 `kernel32.dll`을 이용한 <span style="color:#ffff00">P/Invoke</span> 기법이다.<br>
+<br>핵심은 `user32.dll`과 `kernel32.dll`을 이용한 <span style="color:#ffff00">P/Invoke</span> 기법이다.<br>
 C#에서는 Windows API를 사용할 수 있는 헤더들이 존재하지 않아 사용할 수 없을 줄 알았지만,<br>
 [P/Invoke(플랫폼 호출)](https://learn.microsoft.com/ko-kr/dotnet/standard/native-interop/pinvoke) 방식을 이용해서 비관리형 라이브러리를 액세스 할 수 있다.<br><br>
 핸들러들은 Windows API에서 제공하는 응용프로그램에 대한 핸들로서 제어할 수 있게 해준다.<br>
