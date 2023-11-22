@@ -33,6 +33,7 @@ image:
 	+ 사용자 조작 불가 : 창크기 변경, 최소화, 최대화
 	+ 창 크기 조절 : 버퍼크기 [X 180] [Y 40]
 - 위 내용을 토대로 해서 다음과 같은 프레임 워크를 구성했다.<br>
+
 ```cs
 
 using System.Runtime.InteropServices;
@@ -117,7 +118,8 @@ public class WindowsAPI
     #endregion
 }
 ```
-<br>핵심은 `user32.dll`과 `kernel32.dll`을 이용한 <span style="color:#ffff00">P/Invoke</span> 기법이다.<br>
+
+핵심은 `user32.dll`과 `kernel32.dll`을 이용한 <span style="color:#ffff00">P/Invoke</span> 기법이다.<br>
 C#에서는 Windows API를 사용할 수 있는 헤더들이 존재하지 않아 사용할 수 없을 줄 알았지만,<br>
 [P/Invoke(플랫폼 호출)](https://learn.microsoft.com/ko-kr/dotnet/standard/native-interop/pinvoke) 방식을 이용해서 비관리형 라이브러리를 액세스 할 수 있다.<br><br>
 핸들러들은 Windows API에서 제공하는 응용프로그램에 대한 핸들로서 제어할 수 있게 해준다.<br>
@@ -141,7 +143,6 @@ Windows11에서는 기본 터미널이 `ConsoleHost`가 아닌 `Terminal`로 되
 혹여나 싶어 터미널에서도 실행을 해보았지만 터미널에서만 동작하지 않는 것을 확인했다.<br>
 <br>
 보다 자세한 내용이 궁금해 계속 인터넷을 뒤졌는데 그 중 다음 내용을 확인할 수 있었다.<br>
-<br>
 ![](https://i.imgur.com/LPTGObS.png)<br>
 콘솔 호스트로 바꾸고 나서는 창에 대한 제어를 모두 정상적으로 할 수 있었다.
 
@@ -154,9 +155,8 @@ Windows11에서는 기본 터미널이 `ConsoleHost`가 아닌 `Terminal`로 되
 	+ MAC은 기본 해상도를 처리는 했지만 명확하게 다른 부분에 접근하기가 힘들었다.
 	+ MAC은 터미널 환경이 응용프로그램이 아닌 내부적으로 돌아가기 때문이라고 한다.
 
-<br>
-
 ### <mark style="background: #FFB8EBA6;"></mark>&nbsp; 🔨Renderer.cs
+
 ```cs
 
 using System.Runtime.InteropServices;
@@ -249,13 +249,21 @@ public class Renderer : Singleton<Renderer>
     #endregion
 }
 ```
+
 `RuntimeInformation.IsOSPlatform`을 통해 해당 플랫폼에 맞는 <span style="color:#ffc000">조건부 컴파일</span>을 진행했다.<br>
 렌더러 클래스는 콘솔 애플리케이션에 대한 버퍼 및 사이즈 전체 정보를 들고 있다.<br><br>
 여기서 핵심은 렌더러는 그려주는 콘솔 화면을 제어만 하는 역할이지 UI를 그리는 매니저가 아니다.<br>
 `클래스는 하나의 기능을 담당해야한다.`라는 원칙을 지키기 위해서 노력했다.
 
 ---
-
+## <mark style="background: #FFB86CA6;"></mark>&nbsp;마무리를 하며
 이로써 팀 프로젝트에서 사용할 콘솔 애플리케이션 기초 뼈대 작업은 끝이 났다.<br>
 하면서 어렵고 막히는.. 특히 윈도우11의 터미널...문제는 크게 시간을 잡아먹었다.<br><br>
-그래도 관련된 내용들을 찾으면서 얻은 정보들은 유용하게 사용할 것 같다.
+- `Windows11`에서 Windows API를 활용할라면?
+	+ 터미널 환경을 11부터 제공되는 Terminal이 아닌 ConsoleHost를 쓴다.
+	+ P/Invoke를 활용해서 extern 외부 라이브러리를 사용한다.<br><br>
+
+- <span style="color:#00b0f0">추가적으로 해야할 것들은 다음과 같다.</span>
+	- [ ] Resource를 관리하는 ResourceManager 구현
+	- [ ] UserInterface를 관리하는 UIManager 구현
+	- [ ] Lobby Enterance - 로비 구현

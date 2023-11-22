@@ -218,8 +218,8 @@
                   "type": "markdown",
                   "state": {
                     "file": "_posts/2023-11-16-framework-composition.md",
-                    "mode": "preview",
-                    "source": false
+                    "mode": "source",
+                    "source": true
                   }
                 }
               }
