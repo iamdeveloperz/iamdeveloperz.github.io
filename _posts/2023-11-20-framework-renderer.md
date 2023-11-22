@@ -26,7 +26,9 @@ image:
 	+ 이유인 즉슨 위 방법으로는 한계점이 명확했는데, 최대화 최소화 같은 메뉴바에 접근할 수 없다.
 	+ <span style="color:#c00000">[!]</span> 윈도우즈 응용프로그램을 제어할 수 있는 API가 필요하다.
 - Windows는 응용프로그램을 명확하게 다룰 수 있는 방법으로 Windows API가 제공된다.
-***
+
+---
+
 ### <mark style="background: #BBFABBA6;"></mark>&nbsp;💫Windows API - Framework
 - Windows API를 활용해서 콘솔 애플리케이션에 창들을 조작할 수 있다.
 - 필요한 기능은 다음과 같다.
