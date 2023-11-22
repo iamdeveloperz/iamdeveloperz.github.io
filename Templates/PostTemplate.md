@@ -1,8 +1,7 @@
 ---
 title: 
 author: HuiSung
-date:
-  "{ date }": 
+date: {{date}}
 categories:
   - 
 tags:

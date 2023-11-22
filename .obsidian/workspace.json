@@ -9,35 +9,15 @@
         "dimension": 54.12436548223351,
         "children": [
           {
-            "id": "865c384c441979bc",
+            "id": "74f256a80f3404c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-16-framework-composition.md",
+                "file": "_posts/2023-11-20-framework-renderer.md",
                 "mode": "preview",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "a1a1ae31d70ea69d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/PostTemplate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50046b90d4e9fdff",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -58,14 +38,26 @@
         "dimension": 45.87563451776649,
         "children": [
           {
-            "id": "94318329fd303ff0",
+            "id": "8c47ea6a14650acb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-20-framework-renderer.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a1ddb5966f712851",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-11-16-framework-composition.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -144,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-16-framework-composition.md",
+                "file": "_posts/2023-11-20-framework-renderer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-16-framework-composition.md",
+                "file": "_posts/2023-11-20-framework-renderer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-16-framework-composition.md"
+                "file": "_posts/2023-11-20-framework-renderer.md"
               }
             }
           }
@@ -207,33 +199,72 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "865c384c441979bc",
+  "floating": {
+    "id": "e62d4dfdb7af1308",
+    "type": "floating",
+    "children": [
+      {
+        "id": "05d5d673716493e0",
+        "type": "window",
+        "children": [
+          {
+            "id": "7aaf458cbb8864a1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "50046b90d4e9fdff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_posts/2023-11-16-framework-composition.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1920,
+        "y": 0,
+        "width": 960,
+        "height": 1032,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "8c47ea6a14650acb",
   "lastOpenFiles": [
-    "Templates/PostTemplate.md",
     "_posts/2023-11-16-framework-composition.md",
+    "_posts/2023-11-20-framework-renderer.md",
+    "Spaces/Home",
+    "Spaces",
+    "assets/img/CS_TIL_11-20.png",
+    "assets/img/CS_TIL_11-16.png",
     "Excalidraw/Drawing 2023-11-21 13.08.52.excalidraw.md",
+    "_site/assets/img/CS_TIL_11-20.png",
+    "_site/assets/img/CS_TIL_11-17.png",
+    "assets/img/CS_TIL_11-17.png",
+    "_posts/2023-11-21.md",
+    "Templates/PostTemplate.md",
+    "_site/tags/f/index.html",
+    "_site/tags/f",
+    "_site/posts/framework-renderer/index.html",
+    "_site/posts/framework-renderer",
+    "_site/posts/2023-11-20-framework-renderer/index.html",
+    "_site/posts/2023-11-20-framework-renderer",
+    "_posts/2023-11-16.md",
     "_site/Excalidraw/Drawing 2023-11-21 13.08.52.excalidraw.html",
     "_site/Excalidraw",
-    "Excalidraw",
-    "_postData/BootCamp_TIL/ps665B.tmp",
     "_site/assets/img/CS_TIL_11-16.png",
-    "assets/img/CS_TIL_11-16.png",
-    "_site/posts/framework-composition/index.html",
-    "_site/posts/framework-composition",
-    "_site/categories/til/index.html",
-    "_site/categories/til",
-    "_site/categories/bootcamp/index.html",
-    "_site/categories/bootcamp",
     "_postData/BootCamp_TIL/CS_TIL_11-16.png",
     "_postData/BootCamp_TIL/CS_TIL_11-21.png",
     "_postData/BootCamp_TIL/CS_TIL_Logo.png",
     "_postData/BootCamp_TIL/CS_Logo.png",
-    "_postData/BootCamp-TIL/CS_TIL_Logo.png",
-    "_postData/BootCamp-TIL/CS_Logo.png",
-    "_posts/2023-11-21.md",
     "_posts/무제 파일 1.md",
-    "_posts/무제 파일.md",
-    "assets/img/SideBarBG.png",
-    "assets/img/ProfileIcon.png"
+    "_posts/무제 파일.md"
   ]
 }
