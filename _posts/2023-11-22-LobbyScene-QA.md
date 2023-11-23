@@ -224,9 +224,9 @@ public class Lobby : Scene
 
 ---
 
-## QA (Quality Assurance)<br><br>
+## QA (Quality Assurance)<br>
 
-### <mark style="background: #FFB8EBA6;"></mark>&nbsp;🐛발생한 버그들<br><br>
+### <mark style="background: #FFB8EBA6;"></mark>&nbsp;🐛발생한 버그들<br>
 
 - `LoadScene()` 이후 다음 씬으로 이동했을 때 버퍼가 남아 있는 문제<br><br>
 - `LoadScene()` 이후 다른 씬의 생명주기가 끝나지 않는 문제<br><br>
@@ -238,9 +238,9 @@ public class Lobby : Scene
 
 ---
 
-## <mark style="background: #ADCCFFA6;"></mark>&nbsp;🛠️해결 과정<br><br>
+## <mark style="background: #ADCCFFA6;"></mark>&nbsp;🛠️해결 과정<br>
 
-### ＃LoadScene Buffer Problem [해결]
+### <mark style="background: #FF5582A6;"></mark>&nbsp;＃LoadScene Buffer Problem [해결]
 - C#에서는 GC(Garbage Collector)가 자동으로 메모리 및 입출력 버퍼를 처리해주는데,<br>
   이 점 때문에 강제적으로 버퍼를 지울 수 있게 제공되지 않았다.
 - 방법이 없나 하던 찰나 아직 버퍼가 남아있다면 `KeyAvailable`이 <span style="color:#00b0f0">true</span>일 것이라 판단.<br>
@@ -256,7 +256,7 @@ public class Lobby : Scene
     }
 ```
 
-### ＃LoadScene - Scene Life Cycle Problem [해결]
+### <mark style="background: #FF5582A6;"></mark>&nbsp;＃LoadScene - Scene Life Cycle Problem [해결]
 - 기본적인 프레임워크를 만들고 각자 해당하는 씬에서 작업을 진행했었다.
 - 하지만 `while(true)`로 동작하는 메서드부분들이 사용하는 것으로 인식하고<br>
   해당 Scene이 GC에 의해 해제되지 않고 해당 호출 스택으로 돌아가는 문제였다.
@@ -304,7 +304,7 @@ public abstract class Scene
 - 버그를 Fix하면서 깨달은 것은 프레임워크 부분은 `많은 테스트가 필요하고 완벽한 설계가 필요`이다.
 - 프레임워크를 고치면 참조하고 있는 다른 모든 Scene들도 고쳐야하는 번거로움이 있기 때문이다.
 
-### ＃BattleScene OutOfRange Problem [해결]
+### <mark style="background: #FF5582A6;"></mark>&nbsp;＃BattleScene OutOfRange Problem [해결]
 - BattleRightWindow.cs 부분에서 계속 OutOfRange 예외를 내뱉었다.
 
 ```cs
