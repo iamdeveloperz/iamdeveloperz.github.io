@@ -217,7 +217,7 @@ public T GetResources<T>(ResourceKeys key)
 <br>그래서 콘솔에서 사용되는 **UIManager**에 역할을 정의하기로 했다.
 - 중복된 출력 코드들을 통합해서 제공 - 위치를 지정하고 컬러를 넣고 출력하는 등
 - 원하는 위치를 지우는(공백) 메서드 제공 - `posRow, FromCol, ToCol`과 같은 형태
-- Box || Border를 그려주는(Draw) 메서드 제공
+- Box & Border를 그려주는(Draw) 메서드 제공
 - 텍스트를 정렬(가운데)해 출력해주는 메서드 제공<br>
 
 ### <mark style="background: #BBFABBA6;"></mark>&nbsp;💫Manager_UserInterface.cs
@@ -464,7 +464,7 @@ public COORD[] DrawColumnBox(int startPosX, int startPosY, int width, int height
 UIManager를 구현할 때 계산식을 생각하는 것이 제일 힘들었다.<br>
 어느 지점에서부터 어느 부분까지 그릴 때 정렬을 계산하는 것을 손으로 적어가며 기록했다.<br>
 <br>
-계산을 할 때는 확실히 컴퓨터로 키보드를 하는 것보다 손으로 머리속에 있는 것을 그려가는 것이 도움된다.<br>
+계산을 할 때는 확실히 컴퓨터로 키보드를 하는 것보다 손으로 머리속에 있는 것을 그려가는 것이 도움된다.<br><br>
 **<span style="color:#92d050">리소스 매니저나 UI매니저를 구현할 때 공통적인 것이 무엇인지 파악하고 넣는 것</span>**<br>
 이 부분이 정말 어려웠는데 객체 지향 프로그래밍에서의 `클래스 분리`에 해당하는 내용이다.<br>
 <br>
