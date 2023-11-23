@@ -224,9 +224,9 @@ public class Lobby : Scene
 
 ---
 
-## QA (Quality Assurance)<br>
+## QA (Quality Assurance)
 
-### <mark style="background: #FFB8EBA6;"></mark>&nbsp;🐛발생한 버그들<br>
+### <mark style="background: #FFB8EBA6;"></mark>&nbsp;🐛발생한 버그들
 
 - `LoadScene()` 이후 다음 씬으로 이동했을 때 버퍼가 남아 있는 문제<br><br>
 - `LoadScene()` 이후 다른 씬의 생명주기가 끝나지 않는 문제<br><br>
@@ -238,7 +238,7 @@ public class Lobby : Scene
 
 ---
 
-## <mark style="background: #ADCCFFA6;"></mark>&nbsp;🛠️해결 과정<br>
+## <mark style="background: #ADCCFFA6;"></mark>&nbsp;🛠️해결 과정
 
 ### <mark style="background: #FF5582A6;"></mark>&nbsp;＃LoadScene Buffer Problem [해결]
 - C#에서는 GC(Garbage Collector)가 자동으로 메모리 및 입출력 버퍼를 처리해주는데,<br>
