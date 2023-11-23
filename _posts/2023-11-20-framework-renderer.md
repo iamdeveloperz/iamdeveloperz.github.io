@@ -1,6 +1,7 @@
 ---
 title: C# Hexa Village - Framework Renderer
 author: HuiSung
+date: 2023-11-20
 categories: 
   - Bootcamp
   - TIL
