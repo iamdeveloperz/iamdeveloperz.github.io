@@ -90,7 +90,7 @@ image:
 팀 프로젝트를 진행하며 `정훈님`이 엄청 짜임새 있는 깃 컨벤션을 준비해주셨다.<br>
 컨벤션이란 코드작성 등 무엇인가를 `협업`하기 전 우리들만의 규칙이다.
 
-![](https://i.imgur.com/qoqvSf5.png){: .left }<br>
+![](https://i.imgur.com/qoqvSf5.png){: .normal }<br>
 
 이런 규칙이 존재하면 커밋 모음을 봤을 때 언제 기능이 생겨났고 버그가 있으며 등등을<br>
 **<span style="font-weight:bold; color:#92d050">이모지</span>**만으로 파악할 수 있기 때문에 한 눈에 들어오는 정도가 다르다.
