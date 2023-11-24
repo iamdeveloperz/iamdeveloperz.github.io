@@ -6,7 +6,7 @@
       {
         "id": "6d00e3e2c3532cf5",
         "type": "tabs",
-        "dimension": 54.12436548223351,
+        "dimension": 54.069050554870536,
         "children": [
           {
             "id": "74f256a80f3404c2",
@@ -24,28 +24,39 @@
             "id": "927f37a3a7df26b3",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Git_Collaboration-Convention.md"
+              }
+            }
+          },
+          {
+            "id": "ca40114d957d9210",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-20-framework-renderer.md",
+                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "541f0da5d4b57ae9",
         "type": "tabs",
-        "dimension": 45.87563451776649,
+        "dimension": 45.93094944512947,
         "children": [
           {
-            "id": "6300ba6396b6743a",
+            "id": "72c2809ea73e41e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-21-Managers-UI-Resource.md",
+                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.5
   },
   "right": {
     "id": "c9f45f3144325a17",
@@ -126,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-21-Managers-UI-Resource.md",
+                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-21-Managers-UI-Resource.md",
+                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-21-Managers-UI-Resource.md"
+                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md"
               }
             }
           }
@@ -257,12 +268,23 @@
       }
     ]
   },
-  "active": "6300ba6396b6743a",
+  "active": "72c2809ea73e41e2",
   "lastOpenFiles": [
+    "_site/assets/img/GIT_TIL_11-23.png",
+    "_site/posts/Git-Collaboration-Convention/index.html",
+    "_site/posts/Git-Collaboration-Convention",
+    "Excalidraw/Git_Collaboration-Convention.md",
     "_posts/2023-11-20-framework-renderer.md",
+    "_posts/2023-11-23-Git-Collaboration-Convention.md",
+    "_site/Excalidraw/HexaFramework.html",
+    "_site/Excalidraw/Git_Collaboration-Convention.html",
+    "_site/tags/git/index.html",
+    "_site/tags/git",
+    "_site/posts/Git-Convention-Collaboration/index.html",
+    "_site/posts/Git-Convention-Collaboration",
+    "Excalidraw/HexaFramework.md",
     "_posts/2023-11-21-Managers-UI-Resource.md",
     "_posts/2023-11-16-framework-composition.md",
-    "Excalidraw/Drawing 2023-11-21 13.08.52.excalidraw.md",
     "assets/img/CS_TIL_11-21.png",
     "Spaces/Home",
     "Spaces",
@@ -272,15 +294,7 @@
     "_site/assets/img/CS_TIL_11-17.png",
     "assets/img/CS_TIL_11-17.png",
     "Templates/PostTemplate.md",
-    "_site/tags/f/index.html",
-    "_site/tags/f",
-    "_site/posts/framework-renderer/index.html",
-    "_site/posts/framework-renderer",
-    "_site/posts/2023-11-20-framework-renderer/index.html",
-    "_site/posts/2023-11-20-framework-renderer",
     "_posts/2023-11-16.md",
-    "_site/Excalidraw/Drawing 2023-11-21 13.08.52.excalidraw.html",
-    "_site/Excalidraw",
     "_site/assets/img/CS_TIL_11-16.png",
     "_postData/BootCamp_TIL/CS_TIL_11-16.png",
     "_postData/BootCamp_TIL/CS_TIL_11-21.png",
