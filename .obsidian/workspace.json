@@ -15,35 +15,24 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-11-21-Managers-UI-Resource.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "927f37a3a7df26b3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Git_Collaboration-Convention.md"
-              }
-            }
-          },
-          {
-            "id": "ca40114d957d9210",
+            "id": "7278a431f13924a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -56,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "mode": "source",
                 "source": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,11 +166,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-23-Git-Collaboration-Convention.md"
+                "file": "_posts/2023-11-24-SOLID-Principles.md"
               }
             }
+          },
+          {
+            "id": "e57dbe1efbb723c2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -202,24 +200,29 @@
   },
   "active": "72c2809ea73e41e2",
   "lastOpenFiles": [
-    "_posts/2023-11-16-framework-composition.md",
+    "_site/tags/solid/index.html",
+    "_site/tags/solid",
+    "_site/tags/principles/index.html",
+    "_site/tags/principles",
+    "_site/posts/SOLID-Principles/index.html",
+    "_site/posts/SOLID-Principles",
+    "_site/categories/oop/index.html",
+    "_site/categories/oop",
+    "_site/categories/design/index.html",
+    "_site/categories/design",
+    "_site/posts/2023-11-24-SOLID-Principles/index.html",
+    "_site/assets/img/SOLID_Principles.png",
+    "assets/img/SOLID_Principles.png",
+    "_posts/2023-11-21-Managers-UI-Resource.md",
+    "_posts/2023-11-24-SOLID-Principles.md",
+    "iamdeveloperz.github.io.md",
     "_posts/2023-11-23-Git-Collaboration-Convention.md",
+    "_posts/2023-11-16-framework-composition.md",
     "_posts/2023-11-20-framework-renderer.md",
     "_site/assets/img/GIT_TIL_11-23.png",
-    "_site/posts/Git-Collaboration-Convention/index.html",
-    "_site/posts/Git-Collaboration-Convention",
     "Excalidraw/Git_Collaboration-Convention.md",
-    "_site/Excalidraw/HexaFramework.html",
-    "_site/Excalidraw/Git_Collaboration-Convention.html",
-    "_site/tags/git/index.html",
-    "_site/tags/git",
-    "_site/posts/Git-Convention-Collaboration/index.html",
-    "_site/posts/Git-Convention-Collaboration",
     "Excalidraw/HexaFramework.md",
-    "_posts/2023-11-21-Managers-UI-Resource.md",
     "assets/img/CS_TIL_11-21.png",
-    "Spaces/Home",
-    "Spaces",
     "assets/img/CS_TIL_11-20.png",
     "assets/img/CS_TIL_11-16.png",
     "_site/assets/img/CS_TIL_11-20.png",
@@ -228,8 +231,6 @@
     "Templates/PostTemplate.md",
     "_posts/2023-11-16.md",
     "_site/assets/img/CS_TIL_11-16.png",
-    "_postData/BootCamp_TIL/CS_TIL_11-16.png",
-    "_postData/BootCamp_TIL/CS_TIL_11-21.png",
     "_posts/무제 파일 1.md",
     "_posts/무제 파일.md"
   ]

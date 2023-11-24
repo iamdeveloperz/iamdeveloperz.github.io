@@ -2,7 +2,7 @@
 title: Managers Implements - UI, Resource
 author: HuiSung
 date: 2023-11-21
-categories: 
+categories:
   - Bootcamp
   - TIL
 tags:
