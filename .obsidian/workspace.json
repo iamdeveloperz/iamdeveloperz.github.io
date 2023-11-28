@@ -86,7 +86,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md"
+                "file": "_posts/2023-11-24-SOLID-Principles.md"
               }
             }
           },
@@ -232,10 +233,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7278a431f13924a9",
+  "active": "1700d641199f852d",
   "lastOpenFiles": [
-    "Excalidraw/OOP_Features_Abstract.md",
     "_posts/2023-11-27-OOP-Features-Keyword.md",
+    "Excalidraw/OOP_Features_Abstract.md",
     "_posts/2023-11-24-SOLID-Principles.md",
     "Excalidraw/HexaFramework.md",
     "Excalidraw/Git_Collaboration-Convention.md",
