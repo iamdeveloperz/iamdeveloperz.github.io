@@ -187,6 +187,7 @@ pin: true
 	  하위(자식) 클래스가 상위 클래스의 속성과 기능을 물려 받는 것이다.
 	- 여기서 접근 제어 지시자 중 `private`을 통해 자식도 접근할 수 없게 할 수 있다.
 	- 상속되는 클래스를 가리켜 `super , parent`라고 부르고 상속받는 클래스를 `sub , child`라고 부른다.
+
 		```cpp
 		// parent class
 		class Super {
@@ -211,6 +212,7 @@ pin: true
 
 	- 상속을 통해서 `중복된 속성들을 제거`하고 `코드의 재사용성`을 늘릴 수 있다.
 	- Lion, Dog, Cat이라는 클래스가 존재한다고 했을 때 다음과 같다.
+
 		```cpp
 		class Dog {
 		    int teethCount; // 중복된 속성들
@@ -270,6 +272,7 @@ pin: true
 		  효과만 누리면 된다. 이는 `제어 추상화`와도 이어지는 내용이다.
 	- <span style="color:#92d050">캡슐화는 쉽게 하자면 키워드만으로도 표현할 수 있다.</span>
 		- `private , protected`
+
 	```cpp
 	#include <iostream>
 
