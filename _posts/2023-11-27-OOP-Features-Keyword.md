@@ -273,6 +273,7 @@ pin: true
 	- <span style="color:#92d050">캡슐화는 쉽게 하자면 키워드만으로도 표현할 수 있다.</span>
 		- `private , protected`
 
+
 	```cpp
 	#include <iostream>
 
