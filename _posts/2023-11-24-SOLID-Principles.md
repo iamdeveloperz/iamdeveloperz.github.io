@@ -124,6 +124,7 @@ public:
   결국 플레이어가 이들과 충돌하면 `NPCAI->Reaction`을 호출 하지만<br>
   반응하는 개체가 적인지 시민인지에 따라서 결과가 달라지는 것이다.
 
+
 ```cpp
 class NPCAI
 {

@@ -271,8 +271,7 @@ pin: true
 		- 캡슐 알약은 안에 어떠한 정보가 들어 있는지 모르지만 사용자는 해당 약으로부터<br>
 		  효과만 누리면 된다. 이는 `제어 추상화`와도 이어지는 내용이다.
 	- <span style="color:#92d050">캡슐화는 쉽게 하자면 키워드만으로도 표현할 수 있다.</span>
-		- `private , protected`
-
+		- `private , protected` <br>
 
 	```cpp
 	#include <iostream>
