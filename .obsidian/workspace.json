@@ -9,53 +9,40 @@
         "dimension": 54.069050554870536,
         "children": [
           {
-            "id": "74f256a80f3404c2",
+            "id": "726c76f69ec4c638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-28-About-OOP.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29eec70716e96dab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2023-11-21-Managers-UI-Resource.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7278a431f13924a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md",
-                "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "c527e1d5b526ca70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-24-SOLID-Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2539b3caebd711c",
+            "id": "9055e75128a6fafd",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/OOP_Features_Abstract.md"
+                "file": "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -63,30 +50,31 @@
         "dimension": 45.93094944512947,
         "children": [
           {
-            "id": "72c2809ea73e41e2",
+            "id": "cf41aec9383f49ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md",
+                "file": "_posts/2023-11-28-Unity-Input-System.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1700d641199f852d",
+            "id": "4ae0b85bb50357af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-24-SOLID-Principles.md",
+                "file": "_posts/2023-11-28-About-OOP.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md",
+                "file": "_posts/2023-11-28-About-OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md",
+                "file": "_posts/2023-11-28-About-OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-27-OOP-Features-Keyword.md"
+                "file": "_posts/2023-11-28-About-OOP.md"
               }
             }
           },
@@ -232,14 +220,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "72c2809ea73e41e2",
+  "active": "726c76f69ec4c638",
   "lastOpenFiles": [
-    "_posts/2023-11-24-SOLID-Principles.md",
+    "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
+    "_posts/2023-11-28-About-OOP.md",
+    "assets/img/OOP_TIL_11-28.png",
+    "_posts/2023-11-28-Unity-Input-System.md",
+    "_posts/2023-11-21-Managers-UI-Resource.md",
+    "_posts/2023-11-16-framework-composition.md",
+    "assets/img/CS_TIL_11-22.png",
     "_posts/2023-11-27-OOP-Features-Keyword.md",
+    "_posts/2023-11-23-Git-Collaboration-Convention.md",
     "Excalidraw/OOP_Features_Abstract.md",
+    "_posts/2023-11-24-SOLID-Principles.md",
     "Excalidraw/HexaFramework.md",
     "Excalidraw/Git_Collaboration-Convention.md",
-    "_posts/2023-11-21-Managers-UI-Resource.md",
     "assets/img/OOP_Features.png",
     "_site/assets/img/OOP_Features.png",
     "_posts/서는.md",
@@ -256,15 +251,11 @@
     "_site/assets/img/SOLID_Principles.png",
     "assets/img/SOLID_Principles.png",
     "iamdeveloperz.github.io.md",
-    "_posts/2023-11-23-Git-Collaboration-Convention.md",
-    "_posts/2023-11-16-framework-composition.md",
     "_posts/2023-11-20-framework-renderer.md",
     "_site/assets/img/GIT_TIL_11-23.png",
     "assets/img/CS_TIL_11-21.png",
     "assets/img/CS_TIL_11-20.png",
     "assets/img/CS_TIL_11-16.png",
-    "_site/assets/img/CS_TIL_11-20.png",
-    "_site/assets/img/CS_TIL_11-17.png",
     "Templates/PostTemplate.md",
     "_posts/2023-11-16.md",
     "_posts/무제 파일 1.md",
