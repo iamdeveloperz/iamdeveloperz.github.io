@@ -42,7 +42,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -220,13 +221,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "726c76f69ec4c638",
+  "active": "4ae0b85bb50357af",
   "lastOpenFiles": [
+    "_posts/2023-11-21-Managers-UI-Resource.md",
     "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
     "_posts/2023-11-28-About-OOP.md",
     "assets/img/OOP_TIL_11-28.png",
     "_posts/2023-11-28-Unity-Input-System.md",
-    "_posts/2023-11-21-Managers-UI-Resource.md",
     "_posts/2023-11-16-framework-composition.md",
     "assets/img/CS_TIL_11-22.png",
     "_posts/2023-11-27-OOP-Features-Keyword.md",
