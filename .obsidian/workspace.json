@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-28-About-OOP.md",
-                "mode": "preview",
+                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -42,8 +42,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -56,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
                 "mode": "source",
                 "source": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md"
+                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md"
               }
             }
           },
@@ -220,20 +219,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ae0b85bb50357af",
+  "active": "726c76f69ec4c638",
   "lastOpenFiles": [
-    "_posts/2023-11-24-SOLID-Principles.md",
-    "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
-    "_posts/2023-11-28-About-OOP.md",
-    "_posts/2023-11-20-framework-renderer.md",
-    "_posts/2023-11-16-framework-composition.md",
-    "_posts/2023-11-21-Managers-UI-Resource.md",
-    "_posts/2023-11-23-Git-Collaboration-Convention.md",
-    "_posts/2023-11-22-LobbyScene-QA.md",
     "_posts/2023-11-27-OOP-Features-Keyword.md",
+    "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
+    "_posts/2023-11-24-SOLID-Principles.md",
+    "_posts/2023-11-23-Git-Collaboration-Convention.md",
+    "_posts/2023-11-21-Managers-UI-Resource.md",
+    "_posts/2023-11-28-About-OOP.md",
+    "assets/img/img.md",
+    "Excalidraw/Excalidraw.md",
+    "_posts/_posts.md",
+    "_posts/2023-11-22-LobbyScene-QA.md",
+    "_posts/2023-11-20-framework-renderer.md",
     "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
+    "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+    "_posts/2023-11-16-framework-composition.md",
     "Excalidraw/Drawing 2023-11-30 11.14.34.excalidraw.md",
-    "_posts/2023-11-30.md",
     "assets/img/Unity_InputSystem.png",
     "assets/img/OOP_TIL_11-28.png",
     "assets/img/CS_TIL_11-22.png",

@@ -37,11 +37,9 @@
   "expandedSpaces": [
     "/",
     "//Templates",
-    "//_posts",
     "//_postData",
     "//Spaces",
     "//Spaces/Spaces/Home",
-    "//_posts",
     "//_postData/_postData/BootCamp, TIL",
     "//_postData",
     "//_postData/_postData/BootCamp-TIL",
@@ -58,7 +56,10 @@
     "//_postData/_postData/BootCamp_TIL",
     "//_site/_site/posts",
     "//_site/_site/posts/_site/posts/framework-composition",
-    "//Excalidraw"
+    "//Excalidraw",
+    "//_posts",
+    "//_posts",
+    "//assets/assets/img"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

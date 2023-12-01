@@ -56,7 +56,7 @@ image:
 		- <span style="color:#92d050">예시)</span> 키보드와 마우스를 사용한 입력 - KeyMa
 		- `List is Empty` 메뉴에서 `+`버튼을 눌러 키보드와 마우스를 추가한다.<br><br>
 
-- #### <span style="color:#c29956">액션 맵 및 액션만들기</span><br><br>
+- #### <span style="color:#c29956">액션 맵 및 액션만들기</span>
 
 	![](https://i.imgur.com/BwD4gyS.png)
 
@@ -64,7 +64,8 @@ image:
 	- `Actions` - 실제 액션이 될 이름 할당 키 값이라고 생각하면 된다.<br><br>
 	- 이렇게 만든 `Input Action`은 `PlayerInput`이라는 컴포넌트를 붙여 사용할 수 있다.<br><br>
 
-- #### 전달 방식 설정 (Behavior)<br><br>
+- #### 전달 방식 설정 (Behavior)
+
 	![](https://i.imgur.com/ZBG06NQ.png)
 
 	- ##### **<span style="font-weight:bold; color:#7030a0">SendMessage</span>**
@@ -162,7 +163,7 @@ image:
 
 ---
 
-## 정리 & 요약<br><br>
+## 정리 & 요약
 
 ### 설치
 - `Package Manager` -> `Unity Registry`에서 `Input System`을 인스톨 및 임포트한다.
