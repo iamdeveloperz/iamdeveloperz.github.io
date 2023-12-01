@@ -21,18 +21,6 @@
             }
           },
           {
-            "id": "29eec70716e96dab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-21-Managers-UI-Resource.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "9055e75128a6fafd",
             "type": "leaf",
             "state": {
@@ -41,9 +29,21 @@
                 "file": "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "29bc352e3ea709ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -51,31 +51,30 @@
         "dimension": 45.93094944512947,
         "children": [
           {
-            "id": "cf41aec9383f49ed",
+            "id": "4ae0b85bb50357af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-28-Unity-Input-System.md",
+                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "4ae0b85bb50357af",
+            "id": "cf41aec9383f49ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-28-About-OOP.md",
+                "file": "_posts/2023-11-24-SOLID-Principles.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-28-About-OOP.md",
+                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-28-About-OOP.md",
+                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-28-About-OOP.md"
+                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md"
               }
             }
           },
@@ -223,17 +222,22 @@
   },
   "active": "4ae0b85bb50357af",
   "lastOpenFiles": [
-    "_posts/2023-11-28-Unity-Input-System.md",
-    "_posts/2023-11-28-About-OOP.md",
-    "_posts/2023-11-21-Managers-UI-Resource.md",
-    "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
-    "assets/img/OOP_TIL_11-28.png",
-    "_posts/2023-11-16-framework-composition.md",
-    "assets/img/CS_TIL_11-22.png",
-    "_posts/2023-11-27-OOP-Features-Keyword.md",
-    "_posts/2023-11-23-Git-Collaboration-Convention.md",
-    "Excalidraw/OOP_Features_Abstract.md",
     "_posts/2023-11-24-SOLID-Principles.md",
+    "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+    "_posts/2023-11-28-About-OOP.md",
+    "_posts/2023-11-20-framework-renderer.md",
+    "_posts/2023-11-16-framework-composition.md",
+    "_posts/2023-11-21-Managers-UI-Resource.md",
+    "_posts/2023-11-23-Git-Collaboration-Convention.md",
+    "_posts/2023-11-22-LobbyScene-QA.md",
+    "_posts/2023-11-27-OOP-Features-Keyword.md",
+    "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-30 11.14.34.excalidraw.md",
+    "_posts/2023-11-30.md",
+    "assets/img/Unity_InputSystem.png",
+    "assets/img/OOP_TIL_11-28.png",
+    "assets/img/CS_TIL_11-22.png",
+    "Excalidraw/OOP_Features_Abstract.md",
     "Excalidraw/HexaFramework.md",
     "Excalidraw/Git_Collaboration-Convention.md",
     "assets/img/OOP_Features.png",
@@ -252,11 +256,9 @@
     "_site/assets/img/SOLID_Principles.png",
     "assets/img/SOLID_Principles.png",
     "iamdeveloperz.github.io.md",
-    "_posts/2023-11-20-framework-renderer.md",
     "_site/assets/img/GIT_TIL_11-23.png",
     "assets/img/CS_TIL_11-21.png",
     "assets/img/CS_TIL_11-20.png",
-    "assets/img/CS_TIL_11-16.png",
     "Templates/PostTemplate.md",
     "_posts/2023-11-16.md",
     "_posts/무제 파일 1.md",
