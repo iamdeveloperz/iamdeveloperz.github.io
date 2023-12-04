@@ -14,19 +14,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
-                "mode": "preview",
+                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+                "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9055e75128a6fafd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md"
               }
             }
           },
@@ -36,13 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -72,8 +63,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e770a4fe349d8427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
+                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
+                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md"
+                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md"
               }
             }
           },
@@ -220,11 +224,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ae0b85bb50357af",
+  "active": "e770a4fe349d8427",
   "lastOpenFiles": [
+    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
+    "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+    "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
+    "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
     "assets/img/ARKA_PROJ_TIL.png",
     "_posts/2023-11-21-Managers-UI-Resource.md",
-    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
     "_posts/2023-11-27-OOP-Features-Keyword.md",
     "_posts/2023-11-24-SOLID-Principles.md",
@@ -235,8 +242,6 @@
     "_posts/_posts.md",
     "_posts/2023-11-22-LobbyScene-QA.md",
     "_posts/2023-11-20-framework-renderer.md",
-    "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
-    "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
     "_posts/2023-11-16-framework-composition.md",
     "Excalidraw/Drawing 2023-11-30 11.14.34.excalidraw.md",
     "assets/img/Unity_InputSystem.png",
@@ -263,7 +268,6 @@
     "iamdeveloperz.github.io.md",
     "_site/assets/img/GIT_TIL_11-23.png",
     "assets/img/CS_TIL_11-21.png",
-    "assets/img/CS_TIL_11-20.png",
     "Templates/PostTemplate.md",
     "_posts/2023-11-16.md",
     "_posts/무제 파일 1.md",

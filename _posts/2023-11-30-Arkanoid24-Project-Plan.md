@@ -1,7 +1,7 @@
 ---
 title: Unity Project - Arkanoid24 Report
 author: HuiSung
-date: 2023-12-05
+date: 2023-11-30
 categories:
   - Bootcamp
   - TIL
