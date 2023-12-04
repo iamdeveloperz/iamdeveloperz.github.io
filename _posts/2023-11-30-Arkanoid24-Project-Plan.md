@@ -22,7 +22,7 @@ image:
 ## 프로젝트 구상안
 
 #### 🎫<span style="color:#c29956">모티브가 되는 게임에 대해</span>
-- 알카노이드는 아타리의 `브레이크 아웃`에서 유래된 게임이지만 벽돌 깨기 장르의 이름이 되어버린 케이스다.
+- 알카노이드는 아타리의 `브레이크 아웃`에서 유래된 게임이지만 장르의 이름이 되어버린 케이스다.
 - 기본적인 컨셉은 알카노이드를 모티브`(모작)`하는 것을 목표로 하여 구성을 쉽게 잡은 편이다.
 - **전체적인 핵심 기능들은 다음과 같다.**
 	- `벽돌 (Brick)` - Level Stage, Scriptable Object
@@ -34,35 +34,36 @@ image:
 
 ---
 
-#### Project Introduction
-##### 🏷️Arkanoid 24
+#### <span style="color:#c29956">Project Introduction</span>
+##### <mark style="background: #BBFABBA6;"></mark>&nbsp;🏷️Arkanoid 24
 - 수능에서 항상 내년 연도를 사용하는 것을 보고 영감을 얻음.
 - 현대 작품에 맞게 재해석한 느낌을 주기 위해 24년이라는 의미를 지님.
 
 ---
 
-##### 📆Develop Schedule
+##### <mark style="background: #BBFABBA6;"></mark>&nbsp;📆Develop Schedule
 - 시작 [ `23. 11. 30 ( 목 )` ]
 - 종료예정일 [ `23. 12. 07 ( 목 ) 13 : 00 `]
 
 ---
 
-##### ⚙️Environment
-|                  |                                 |
+##### <mark style="background: #BBFABBA6;"></mark>&nbsp;⚙️Environment
+
+| Header           | Description                     |
 | ---------------- | ------------------------------- |
 | **IDE**          | Visual Studio 2019, 2022, Rider |
 | **Tool**         | Unity 2022.3.2f1                |
 | **VCS**          | Git (GitHub Desktop)            |
 | **Envrionment**  | PC `only`                       |
 | **Resolution**   | 1920 x 1080 `FHD`               |
-| **Collaborator** | 6                                |
+| **Collaborator** | 6                               |
 
 `Code Write` - Visual Studio (VS)<br>
 `Code Refactoring` - Jetbrain Rider
 
 ---
 
-##### 👤Collaborator - Team Intro
+##### <mark style="background: #BBFABBA6;"></mark>&nbsp;👤Collaborator - Team Intro
 - 팀장 `송희성` - 리팩터링 / 사용자 입력 / 플레이어(Paddle) / 공(Ball) / 멀티 플레이어 (로컬)
 - 팀원1 `박상원` - 전체적인 게임 흐름, 로직 (코어) / UI디자인 및 리소스 제공 / 게임매니저 / 코드 리뷰
 - 팀원2 `구도현` - 벽(Brick) 레벨 구성 / 스프라이트 리소스 / 멀티 플레이어 (로컬) / 상호작용(Interact)
@@ -72,7 +73,7 @@ image:
 
 ---
 
-##### 📌Features
+##### <mark style="background: #BBFABBA6;"></mark>&nbsp;📌Features
 - `공 (Ball)` - Rigidbody2D, Bounce, Collision, Item Interact, Brick Interact
 - `플레이어 (Paddle)` - Rigidbody2D, UserInput, Item Interact
 - `벽 (Brick)` - Collider, Collision, Score, Ball Interact
@@ -88,7 +89,7 @@ image:
 
 ---
 
-##### <span style="color:#7030a0">G</span>it <span style="color:#7030a0">C</span>onvention
+##### <mark style="background: #BBFABBA6;"></mark>&nbsp;<span style="color:#7030a0">G</span>it <span style="color:#7030a0">C</span>onvention
 
 💬 커밋 메세지 작성 (Summary)<br>
 - [💡Feature] - 신규 기능 개발 (새로운 걸 만들었을 때)<br>

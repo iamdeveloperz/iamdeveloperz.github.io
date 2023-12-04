@@ -76,8 +76,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-01-Arkanoid24-Project-Features.md"
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md"
               }
             }
           },
@@ -224,10 +223,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e770a4fe349d8427",
+  "active": "4ae0b85bb50357af",
   "lastOpenFiles": [
-    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
     "Excalidraw/Drawing 2023-11-29 21.18.32.excalidraw.md",
     "assets/img/ARKA_PROJ_TIL.png",
