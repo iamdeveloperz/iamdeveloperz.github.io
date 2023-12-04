@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
-                "mode": "source",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
                 "mode": "source",
                 "source": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-30-Unity-Input-System-2-Scripts.md"
+                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md"
               }
             }
           },
@@ -200,7 +200,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -219,13 +220,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "726c76f69ec4c638",
+  "active": "4ae0b85bb50357af",
   "lastOpenFiles": [
-    "_posts/2023-11-27-OOP-Features-Keyword.md",
+    "assets/img/ARKA_PROJ_TIL.png",
+    "_posts/2023-11-21-Managers-UI-Resource.md",
+    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-11-30-Unity-Input-System-2-Scripts.md",
+    "_posts/2023-11-27-OOP-Features-Keyword.md",
     "_posts/2023-11-24-SOLID-Principles.md",
     "_posts/2023-11-23-Git-Collaboration-Convention.md",
-    "_posts/2023-11-21-Managers-UI-Resource.md",
     "_posts/2023-11-28-About-OOP.md",
     "assets/img/img.md",
     "Excalidraw/Excalidraw.md",
