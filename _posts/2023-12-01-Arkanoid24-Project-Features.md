@@ -31,12 +31,11 @@ image:
 - 플레이어 이동을 마우스 포지션으로만 처리
 	- 이 부분에서 살짝 문제가 있었는데, 마우스 포지션을 따라가게 만드니까,<br>
 	  플레이어가 제어 되지 않을 정도로 너무 빠른 문제가 발생.
-	- 기존 코드는 transform을 직접 제어해서 물리 연산에도 오차가 발생
+	- 기존 코드는 transform을 직접 제어해서 물리 연산에도 오차가 발생<br><br>
 
- 	> transform을 직접적으로 건드려 포지션을 변경해주던 부분을 물리 연산으로 변경<br>
- 	 Rigidbody2D => velocity에 direction값과 speed 값을 곱해주어 마우스를 따라가게 처리<br>
-	  `_rbody.velocity = direction * movementSpeed` 같은 형태이다.
- 	 > {: .prompt-info }
+ 	- transform을 직접적으로 건드려 포지션을 변경해주던 부분을 물리 연산으로 변경<br>
+ 	 - Rigidbody2D => velocity에 direction값과 speed 값을 곱해주어 마우스를 따라가게 처리<br>
+ 	 - `_rbody.velocity = direction * movementSpeed` 같은 형태
 
 ```csharp
 private void FixedUpdate()
