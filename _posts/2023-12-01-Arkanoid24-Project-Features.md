@@ -34,9 +34,9 @@ image:
 	- 기존 코드는 transform을 직접 제어해서 물리 연산에도 오차가 발생
 
  	> transform을 직접적으로 건드려 포지션을 변경해주던 부분을 물리 연산으로 변경<br>
- 	> Rigidbody2D => velocity에 direction값과 speed 값을 곱해주어 마우스를 따라가게 처리<br>
- 	> `_rbody.velocity = direction * movementSpeed`
- 	{: .prompt-info }
+ 	 Rigidbody2D => velocity에 direction값과 speed 값을 곱해주어 마우스를 따라가게 처리<br>
+	  `_rbody.velocity = direction * movementSpeed` 같은 형태이다.
+ 	 > {: .prompt-info }
 
 ```csharp
 private void FixedUpdate()
