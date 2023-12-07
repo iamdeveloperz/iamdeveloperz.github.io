@@ -33,9 +33,10 @@ image:
 	  플레이어가 제어 되지 않을 정도로 너무 빠른 문제가 발생.
 	- 기존 코드는 transform을 직접 제어해서 물리 연산에도 오차가 발생<br><br>
 
- 	- transform을 직접적으로 건드려 포지션을 변경해주던 부분을 물리 연산으로 변경<br>
- 	 - Rigidbody2D => velocity에 direction값과 speed 값을 곱해주어 마우스를 따라가게 처리<br>
- 	 - `_rbody.velocity = direction * movementSpeed` 같은 형태
+ > transform을 직접적으로 건드려 포지션을 변경해주던 부분을 물리 연산으로 변경<br>
+ > Rigidbody2D => velocity에 direction값과 speed 값을 곱해주어 마우스를 따라가게 처리<br>
+ > `_rbody.velocity = direction * movementSpeed` 같은 형태
+ {: .prompt-info}
 
 ```csharp
 private void FixedUpdate()
@@ -106,4 +107,4 @@ public class EventManager
 - 하지만 이벤트 특성상 코드가 복잡해지는 경향이 있는데 이 부분을 항상 유의해야함.
 - 현재는 작은 규모의 이벤트만을 관리해서 따로 생성해도 문제 없지만,<br>
   추 후 다른 프로젝트나 현재 프로젝트 범위가 커지면 이벤트 매니저는 사용을 지양해야함
-- 이벤트 중앙 관리는 의존성을 최소화 할 수 있지만, 코드의 복잡성을 증가시키기 때문에 사용에 신경쓰자!
+- 이벤트 중앙 관리는 의존성을 최소화 할 수 있지만, 코드의 복잡성을 증가시키기 때문에 사용에 신경써야함.
