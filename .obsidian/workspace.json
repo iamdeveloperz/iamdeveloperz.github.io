@@ -6,7 +6,7 @@
       {
         "id": "6d00e3e2c3532cf5",
         "type": "tabs",
-        "dimension": 54.069050554870536,
+        "dimension": 53.558052434456926,
         "children": [
           {
             "id": "726c76f69ec4c638",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
+                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
                 "mode": "preview",
                 "source": false
               }
@@ -45,12 +45,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "541f0da5d4b57ae9",
         "type": "tabs",
-        "dimension": 45.93094944512947,
+        "dimension": 46.441947565543074,
         "children": [
           {
             "id": "e770a4fe349d8427",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
+                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
                 "mode": "source",
                 "source": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
+                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
+                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md"
+                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md"
               }
             }
           },
@@ -211,10 +211,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8cd7b351a9e8c98",
+  "active": "29bc352e3ea709ce",
   "lastOpenFiles": [
-    "_posts/2023-12-01-Arkanoid24-Project-Features.md",
+    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
+    "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
+    "_posts/2023-12-01-Arkanoid24-Project-Features.md",
     "_site/tags/servicelocator/index.html",
     "_site/tags/servicelocator",
     "_site/tags/ballsystem/index.html",
@@ -228,7 +230,6 @@
     "_posts/2023-11-29-Unity-Input-System-1-Mechanism.md",
     "_site/assets/img/ARKA_PROJ_TIL.png",
     "_site/assets/img/Unity_InputSystem.png",
-    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-11-28-About-OOP.md",
     "assets/img/ARKA_PROJ_TIL.png",
     "_posts/2023-11-24-SOLID-Principles.md",
