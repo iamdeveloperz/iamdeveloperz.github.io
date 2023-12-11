@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
+                "file": "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
                 "mode": "preview",
                 "source": false
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
+                "file": "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
                 "mode": "source",
                 "source": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
+                "file": "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
+                "file": "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md"
+                "file": "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md"
               }
             }
           },
@@ -211,11 +211,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bc352e3ea709ce",
+  "active": "e770a4fe349d8427",
   "lastOpenFiles": [
-    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
-    "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
     "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
+    "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
+    "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
+    "assets/img/ARKA_PROJ_TIL_MULTI.png",
+    "assets/img/ARKA_PROJ_TIL_INPUT.png",
+    "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
     "_posts/2023-12-01-Arkanoid24-Project-Features.md",
     "_site/tags/servicelocator/index.html",
     "_site/tags/servicelocator",
@@ -254,10 +257,6 @@
     "assets/img/OOP_Features.png",
     "_site/assets/img/OOP_Features.png",
     "_posts/서는.md",
-    "_site/assets/img/SOLID_Principles.png",
-    "assets/img/SOLID_Principles.png",
-    "iamdeveloperz.github.io.md",
-    "Templates/PostTemplate.md",
-    "_posts/2023-11-16.md"
+    "iamdeveloperz.github.io.md"
   ]
 }

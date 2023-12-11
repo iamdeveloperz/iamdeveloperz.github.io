@@ -11,10 +11,10 @@ tags:
   - Local
   - MultiInput
 image:
-  path: /assets/img/
+  path: /assets/img/ARKA_PROJ_TIL_MULTI.png
 ---
 
-## 싱글 플레이 → 로컬멀티 플레이로 확장
+## 싱글 플레이 → 로컬 멀티 플레이로 확장
 
 ---
 
