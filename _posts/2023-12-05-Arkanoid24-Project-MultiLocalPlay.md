@@ -1,7 +1,7 @@
 ---
-title: Unity Project - Arkanoid24, Multi Input
+title: Unity Project - Arkanoid24, MultiPlay
 author: HuiSung
-date: 2023-12-08
+date: 2023-12-05
 categories:
   - Bootcamp
   - TIL
