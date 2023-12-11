@@ -1,5 +1,5 @@
 ---
-title: (C++) Programmers, 가장 가까운 같은 글자
+title: C++, Programmers - 가장 가까운 같은 글자
 author: HuiSung
 date: 2023-12-07
 categories:
