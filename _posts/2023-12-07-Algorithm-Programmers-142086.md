@@ -8,7 +8,7 @@ categories:
 tags:
   - CPP
   - Level1
-  - 142086
+  - "142086"
 image:
   path: /assets/img/Algorithm_Programmers_Level1.png
 ---
