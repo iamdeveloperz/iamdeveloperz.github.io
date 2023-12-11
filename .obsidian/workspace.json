@@ -211,8 +211,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8b8858818809b3c9",
+  "active": "e770a4fe349d8427",
   "lastOpenFiles": [
+    "_posts/2023-12-01-Arkanoid24-Project-Features.md",
     "assets/img/Algorithm_Programmers_Level1.png",
     "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
     "_posts/2023-12-07-Algorithm-Programmers-142086.md",
@@ -221,7 +222,6 @@
     "assets/img/ARKA_PROJ_TIL_MULTI.png",
     "assets/img/ARKA_PROJ_TIL_INPUT.png",
     "_posts/2023-11-30-Arkanoid24-Project-Plan.md",
-    "_posts/2023-12-01-Arkanoid24-Project-Features.md",
     "_site/tags/servicelocator/index.html",
     "_site/tags/servicelocator",
     "_site/tags/ballsystem/index.html",
@@ -257,7 +257,6 @@
     "Excalidraw/HexaFramework.md",
     "Excalidraw/Git_Collaboration-Convention.md",
     "assets/img/OOP_Features.png",
-    "_site/assets/img/OOP_Features.png",
     "_posts/서는.md"
   ]
 }
