@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
-                "mode": "preview",
-                "source": false
+                "file": "_posts/2023-12-18-Algorithm-Programmers-132267.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "541f0da5d4b57ae9",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-07-Algorithm-Programmers-142086.md",
+                "file": "_posts/2023-12-18-Algorithm-Programmers-132267.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-07-Algorithm-Programmers-142086.md",
+                "file": "_posts/2023-12-18-Algorithm-Programmers-132267.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-07-Algorithm-Programmers-142086.md"
+                "file": "_posts/2023-12-18-Algorithm-Programmers-132267.md"
               }
             }
           },
@@ -211,13 +211,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e770a4fe349d8427",
+  "active": "e8cd7b351a9e8c98",
   "lastOpenFiles": [
+    "_posts/2023-12-07-Algorithm-Programmers-142086.md",
+    "_posts/2023-12-18-Algorithm-Programmers-132267.md",
+    "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
     "_posts/2023-12-01-Arkanoid24-Project-Features.md",
     "assets/img/Algorithm_Programmers_Level1.png",
     "_posts/2023-12-05-Arkanoid24-Project-MultiLocalPlay.md",
-    "_posts/2023-12-07-Algorithm-Programmers-142086.md",
-    "_posts/2023-12-06-Arkanoid24-Project-Multi-Input.md",
     "_posts/2023-12-04-Arkanoid24-Project-Ball-System.md",
     "assets/img/ARKA_PROJ_TIL_MULTI.png",
     "assets/img/ARKA_PROJ_TIL_INPUT.png",
